@@ -1,0 +1,39 @@
+{
+  "name": "console-debugger",
+  "version": "1.0.0",
+  "description": "Utility for managing console.log statements with timestamp to external file.",
+  "engines": {
+    "node": "6.9.1"
+  },
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheezykw/console-debugger.git"
+  },
+  "keywords": [
+    "console",
+    "debug"
+  ],
+  "author": "Will Berlanga",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/wheezykw/console-debugger/issues"
+  },
+  "homepage": "https://github.com/wheezykw/console-debugger#readme",
+  "devDependencies": {
+    "eslint": "^3.17.1",
+    "eslint-config-airbnb": "^14.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^4.0.0",
+    "eslint-plugin-react": "^6.10.0",
+    "mocha": "^3.2.0"
+  },
+  "dependencies": {
+    "chai": "^3.5.0",
+    "dotenv": "^4.0.0"
+  }
+}
