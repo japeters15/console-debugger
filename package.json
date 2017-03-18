@@ -1,6 +1,6 @@
 {
   "name": "console-debugger",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Utility for managing console.log statements with timestamp to external file.",
   "engines": {
     "node": "6.9.1"
