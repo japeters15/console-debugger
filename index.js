@@ -26,7 +26,7 @@ logFile.write('Logging set to DEBUG -- ' + process.env.LOG_DEBUG + '\n');
 Console.log = (msg) => {
   // checks to see if .env debug value is set to true
   if (process.env.LOG_DEBUG === 'true') {
-    // writes log message to log with timestamp
+    // writes log message with timestamp and message
     logFile.write(new Date().toISOString() + ' :: ' + msg + '\n');
   }
 };
